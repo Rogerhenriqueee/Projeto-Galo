@@ -1,0 +1,28 @@
+@charset 'UTF-08';
+*{
+    padding: 0;
+    margin:0
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+:root{
+    --fonte-normal: Arial, Helvetica, sans-serif;
+    --fonte-itulo:'Rubik Distressed', cursive;
+    --fonte-texto: 'Dancing Script';
+}
+
+header{
+    background-color: black;
+    background-image: url('../imagem/Galo.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px 200px;
+    color: white;
+    text-align: center;
+    padding: 70px;
+}
+header, h1{
+  font-family: var(--fonte-itulo);
+
+}
