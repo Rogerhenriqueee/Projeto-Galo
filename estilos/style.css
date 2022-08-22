@@ -3,26 +3,105 @@
     padding: 0;
     margin:0
 }
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 :root{
     --fonte-normal: Arial, Helvetica, sans-serif;
-    --fonte-itulo:'Rubik Distressed', cursive;
-    --fonte-texto: 'Dancing Script';
+    --fonte-titulo:'Montserrat', sans-serif;
+    --fonte-texto:'Dancing Script';
 }
 
 header{
     background-color: black;
-    background-image: url('../imagem/Galo.png');
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 200px 200px;
     color: white;
     text-align: center;
-    padding: 70px;
+    padding-top: 20px;
 }
-header, h1{
-  font-family: var(--fonte-itulo);
+    header > h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10vw;
+    color: black;
+    text-shadow: 2px 1px 7px white}
 
-}
+    header p{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 2.5em;
+        color: black;
+        text-shadow: 1px 0px 4px white}
+    
+    nav{
+        background-color: black;  
+        padding: 10px;;
+
+    }
+
+    nav > a{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.2em;
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+    }
+
+    nav > a:hover{
+        background-color: rgba(255, 255, 255, 0.966);
+        color: black;
+        text-decoration: underline;
+       border-radius: 5px;}
+
+    section{
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        padding-left: 40px;
+        line-height: 2em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 5vw;
+ 
+    }
+
+    section.normal {
+        background-color: white;
+        color: black;
+    }
+
+    section.imagem{
+        background-color: rgba(10, 10, 10, 0.637);
+        text-shadow: 1px px 0px black;
+        color: white;
+        background: cover;
+        background-attachment: fixed;
+    }
+
+    section.imagem > p{
+        background-color: rgba(37, 36, 36, 0.473);
+        width: 400px;
+    }
+
+    section#img01{
+        background-image: url('../imagem/AM.jpeg');
+        background-position: center top;
+        background: cover;
+    }
+    section#img02{
+        background-image: url('../imagem/atletico.jpg');
+        background-position: left center;
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+
+    footer>a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    footer>a:hover{
+        text-decoration: underline;
+    }
+
